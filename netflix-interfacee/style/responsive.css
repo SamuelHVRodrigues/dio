@@ -1,0 +1,64 @@
+@media screen and (max-width: 700px) {
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        font-size: 14px;
+        margin: 2px;
+    }
+
+    .filme-principal {
+        background-position: right;
+        padding-left: 17px;
+    }
+
+    .filme-principal .container {
+        margin: 0;
+        width: 100%;
+    }
+
+    .filme-principal .the-witcher-logo {
+        width: 90%;
+    }
+
+    .filme-principal .the-witcher-logo:hover {
+        width: 90%;
+    }
+
+    .filme-principal .descricao {
+        width: 90%;
+        font-size: 14px;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .filme-principal .botoes {
+        display: flex;
+    }
+
+    .filme-principal .botao {
+        width: 154px;
+        font-size: 13px;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, .20);
+    }
+
+    div .container {
+        position: absolute;
+        bottom: 7%;
+    }
+
+    .genero {
+        font-size: 18px;
+    }
+}
+
+@media screem and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}

@@ -1,0 +1,18 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lightgreen;
+    font-family: Verdana;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("img/cobra_verde_costa_rica.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background-position: right, top;
+    }
+}
